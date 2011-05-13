@@ -2,8 +2,44 @@ body {
 	font-family: verdana, helvetica, arial, sans-serif;
 	font-size: 14px;
 	text-align: center;
-/* 	background: url("{{ STATIC_URL }}sakura.png"); */
     background: #FFE6CC; 
 /* 	color: #6f6f6f; */
     color: #FF6666;
+}
+
+#main_titulo {
+  font-family: "Comfortaa","Arial Black";
+  font-size:40px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+/*   text-shadow: 1px 3px 2px rgb(30,30,30); */
+  text-shadow: 1px 3px 2px #830008;
+  color: #FF6666;
+}
+
+#email {
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size:14px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  color: #FF6666;
+}
+
+#inscr {
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size:16px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #830008;
+  color: #FF6666;
+}
+    
+
+a:link, a:visited, a:active {
+    background-color: #FF6666;
+    border-color: #830008;
+/*     border-style: solid; */
+    color: #222b00;
+    border-width: 1px;
+    padding: 2px;
+    text-decoration: none;
 }

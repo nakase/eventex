@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<META NAME="author" CONTENT="Silvia Nakase"/>
 <html lang="pt-br">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -8,18 +9,20 @@
     
 </head>
 <body>
-    <h1><img src="{{ STATIC_URL }}sakura.png" /> EventeX!</h1>
+    <h1><img src="{{ STATIC_URL }}sakura.png" /><span id="main_titulo">  EventeX</span></h1>
+
     <p></p>
-    <p>O evento mais sensacional do ano depois do Dev in Rio!</p>
-    <p>Você não pode perder esta oportunidade!</p>
+    <p> Bem-vindo ao EventeX! <p>
+    <p>O evento mais sensacional do ano depois do Dev in Rio.</p>
+    <p>Aproveite agora esta oportunidade!</p>
     <p><b>Abertura das inscrições em 15/05/2011.</b></p>
-    <p>Em caso de dúvidas ou informações, entre em contato com <span class="email"> <a href="mailto:eventex@eventex.com.br">eventex@eventex.com.br</a>
+    <p>Em caso de dúvidas ou informações, entre em contato com <span id="email"> <a href="mailto:eventex@eventex.com.br">eventex@eventex.com.br</a>
             </span></p>
     <br />
     <br />
     <p></p>
     <footer id="footer" class="grid_12">
-            <p class="left">&copy; 2011 &bull;  EventeX Created by <a>  <a> <a> Silvia Nakase </a> &bull; Powered by <a href="http://www.djangoproject.com/">Django</a></p>
+            <p class="left">&copy; 2011 &bull;  EventeX Created by <a>  Silvia Nakase </a> &bull; Powered by <a href="http://www.djangoproject.com/">Django</a></p>
     </footer>      
 
 </body>

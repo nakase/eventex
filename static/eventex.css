@@ -3,6 +3,16 @@ body {
 	font-size: 14px;
 	text-align: center;
 /* 	background: url("{{ STATIC_URL }}sakura.png"); */
+    background: #FFE6CC; 
 /* 	color: #6f6f6f; */
-    color: #FF9999;
+    color: #FF6666;
+}
+
+#main_titulo {
+  font-family: "Comfortaa","Arial Black";
+  font-size:4em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-shadow: 1px 3px 2px rgb(30,30,30);
+  color: rgba(200,200,200,0.3);
 }

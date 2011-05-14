@@ -1,29 +1,61 @@
-<!DOCTYPE html>
-<META NAME="author" CONTENT="Silvia Nakase"/>
-<html lang="pt-br">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Eventex</title>   
-    <link rel="shortcut icon" href="{{ STATIC_URL }}sakura.png" />
-    <link rel="stylesheet" href="{{ STATIC_URL }}eventex.css?v=2" />
-    
+<!-- website template design by download website templates - http://www.downloadwebsitetemplates.co.uk -->
+<title>EventeX</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" type="text/css" media="screen" href="{{ STATIC_URL }}css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'/>
+<link rel="shortcut icon" href="{{ STATIC_URL }}images/imagem4.jpeg" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
 </head>
 <body>
-    <h1><img src="{{ STATIC_URL }}sakura.png" /><span id="main_titulo">  EventeX</span></h1>
+<div id="container" class="clearfix">
+	
+    <div id="headercont">
+    	<h1><a title="" href="">EventeX</a></h1>
+    </div>
+    
+    <div id="menucont">
+        <ul>
+            <li><a title="" href="" class="active">Início</a></li>
+            <li><a title="" href="">EventeX</a></li>
+            <li><a title="" href="">Contato</a></li>
+        </ul>
+    </div>
+    
+    <div id="middlecont">
+     	<img alt="" src="{{ STATIC_URL }}images/imagem6.jpeg" /> 
+    </div>
+    
+    <div id="maincont" class="clearfix">
+        <div id="mainleft">
+            <h3>Menu</h3>
+            <p></p>
+            <ul class="sidemenu">
+                <li><a title="" href="">Início</a></li>
+                <li><a title="" href="">Eventex</a></li>
+                <li><a title="" href="">Contato</a></li>                                
+            </ul>
+         </div>
+    	<div id="mainright">
+            <h1>Bem-vindo ao EventeX!</h1>
+                    
+            <p>O evento mais sensacional do ano depois do Dev in Rio.</p>
+            <p>Aproveite agora esta oportunidade!</p>
+            <p><b>Abertura das inscrições em 15/05/2011.</b></p>
+            <p>Em caso de dúvidas ou informações, entre em contato com <a href="mailto:eventex@eventex.com.br">eventex@eventex.com.br.</a>
+             </p>
+        </div>
+    </div>
+    
+    <div id="footercont">
+        <p>Template Design by <a title="download website templates" href="http://www.downloadwebsitetemplates.co.uk" rel="external">Download Website Templates </a>&copy; 2011  &bull; EventeX &nbsp; &nbsp; &nbsp; Created by <a>  Silvia Nakase </a>  &bull; Powered by <a href="http://www.djangoproject.com/">Django</a></p>
+    </div>
 
-    <p></p>
-    <p> Bem-vindo ao EventeX! <p>
-    <p>O evento mais sensacional do ano depois do Dev in Rio.</p>
-    <p>Aproveite agora esta oportunidade!</p>
-    <p><b>Abertura das inscrições em 15/05/2011.</b></p>
-    <p>Em caso de dúvidas ou informações, entre em contato com <span id="email"> <a href="mailto:eventex@eventex.com.br">eventex@eventex.com.br</a>
-            </span></p>
-    <br />
-    <br />
-    <p></p>
-    <footer id="footer" class="grid_12">
-            <p class="left">&copy; 2011 &bull;  EventeX Created by <a>  Silvia Nakase </a> &bull; Powered by <a href="http://www.djangoproject.com/">Django</a></p>
-    </footer>      
-
+</div>
+    
 </body>
 </html>

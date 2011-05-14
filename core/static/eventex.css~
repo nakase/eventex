@@ -2,7 +2,6 @@ body {
 	font-family: verdana, helvetica, arial, sans-serif;
 	font-size: 14px;
 	text-align: center;
-/* 	background: url("{{ STATIC_URL }}sakura.png"); */
     background: #FFE6CC; 
 /* 	color: #6f6f6f; */
     color: #FF6666;
@@ -23,7 +22,6 @@ body {
   font-size:14px;
   font-weight: bold;
   letter-spacing: 0.2em;
-/*   text-shadow: 1px 3px 2px rgb(30,30,30); */
   color: #FF6666;
 }
 
@@ -31,8 +29,6 @@ body {
   font-family: verdana, helvetica, arial, sans-serif;
   font-size:16px;
   font-weight: bold;
-/*   letter-spacing: 0.2em; */
-/*   text-shadow: 1px 3px 2px rgb(30,30,30); */
   text-shadow: 1px 1px 1px #830008;
   color: #FF6666;
 }
@@ -46,4 +42,24 @@ a:link, a:visited, a:active {
     border-width: 1px;
     padding: 2px;
     text-decoration: none;
+}
+
+#footer {
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    background: #FFE6CC; 
+/*  color: #6f6f6f; */
+    color: #FF6666;
+}
+
+#corpo {
+    background-color: #FFE6CC;
+    border-color: #830008;
+    border-style: inset; 
+/*     color: #222b00;dotted, dashed, groove, ridge, inset, outset */
+    border-width: 4px;
+    padding: 2px;
+    text-decoration: none;
+    color: #FF6666;
 }

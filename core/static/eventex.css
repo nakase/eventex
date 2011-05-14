@@ -43,3 +43,23 @@ a:link, a:visited, a:active {
     padding: 2px;
     text-decoration: none;
 }
+
+#footer {
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    background: #FFE6CC; 
+/*  color: #6f6f6f; */
+    color: #FF6666;
+}
+
+#corpo {
+    background-color: #F1DAC1;
+    border-color: #830008;
+    border-style: none; 
+/*     color: #222b00; */
+    border-width: 4px;
+    padding: 2px;
+    text-decoration: none;
+    color: #FF6666;
+}
